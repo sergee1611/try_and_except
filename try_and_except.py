@@ -3,7 +3,7 @@ def add_everything_up(a, b):
         sum_ = a + b
         return sum_
     except:
-        sum_ = f'{a}{b}'
+        sum_ = str(a) + str(b)
         return sum_
 
 
